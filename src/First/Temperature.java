@@ -1,15 +1,6 @@
 package src.First;
 public class Temperature {
     public static void main(String[] args){
-        UserInput input = new UserInput();
-
-        while (!input.userEnterredValidValue && !input.userTerminatedSession){
-            input.promptUserForFarenheit();
-        }
-
-        if (input.userEnterredValidValue){
-            System.out.println(input.celciusValue);
-        }
         
     }
 
